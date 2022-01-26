@@ -1,0 +1,38 @@
+:root {
+  --primary-font-family: "Cormorant Upright", serif;
+  --heading-font: "Julius Sans One", sans-serif;
+  --base-color: #fdf1e9;
+}
+.greetings,
+.description {
+  text-align: center;
+  font-family: var(--primary-font-family);
+  font-size: 30px;
+  opacity: 0.7;
+}
+.heading {
+  text-align: center;
+  font-family: var(--heading-font);
+  font-size: 60px;
+}
+.hero {
+  background-color: var(--base-color);
+}
+.social {
+  text-align: right;
+  margin-right: 50px;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+.fa-facebook-square {
+  padding-right: 20px;
+}
+.button {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
