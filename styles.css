@@ -2,6 +2,7 @@
   --primary-font-family: "Cormorant Upright", serif;
   --heading-font: "Julius Sans One", sans-serif;
   --base-color: #fdf1e9;
+  --secondary-heading: "Raleway", sans-serif;
 }
 .greetings,
 .description {
@@ -32,7 +33,13 @@
 }
 p {
   text-align: center;
+  font-family: var(--primary-font-family);
 }
 h2 {
   text-align: center;
+  font-family: var(--secondary-heading);
+}
+.background {
+  background-color: #eaeded;
+  height: 560px;
 }
