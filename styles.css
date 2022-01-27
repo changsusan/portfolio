@@ -34,6 +34,7 @@
 p {
   text-align: center;
   font-family: var(--primary-font-family);
+  font-size: 25px;
 }
 h2 {
   text-align: center;
@@ -42,4 +43,11 @@ h2 {
 .background {
   background-color: #eaeded;
   height: 560px;
+}
+.video {
+  display: flex;
+  justify-content: center;
+}
+.smaller-font {
+  font-size: 20px;
 }
