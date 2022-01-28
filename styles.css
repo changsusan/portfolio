@@ -1,7 +1,7 @@
 :root {
   --primary-font-family: "Cormorant Upright", serif;
   --heading-font: "Julius Sans One", sans-serif;
-  --base-color: #fdf1e9;
+  --base-color: #f5eef8;
   --secondary-heading: "Raleway", sans-serif;
 }
 .greetings,
@@ -42,7 +42,7 @@ h2 {
 }
 .background {
   background-color: #eaeded;
-  height: 560px;
+  height: 660px;
 }
 .video {
   display: flex;
@@ -50,4 +50,20 @@ h2 {
 }
 .smaller-font {
   font-size: 20px;
+}
+.red {
+  color: brown;
+  font-weight: bold;
+}
+.blue {
+  color: darkblue;
+  font-weight: bold;
+}
+.btn-branding {
+  background: #d7bde1;
+  margin-top: 20px;
+  border-radius: 12px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
