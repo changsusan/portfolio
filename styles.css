@@ -47,6 +47,8 @@ h2 {
 .video {
   display: flex;
   justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .smaller-font {
   font-size: 20px;
@@ -66,4 +68,30 @@ h2 {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+@media (max-width: 750px) {
+  .greetings {
+    font-size: 20px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .description {
+    font-size: 25px;
+  }
+  .classes {
+    font-size: 20px;
+  }
+}
+@media (max-width: 770px) {
+  .developer {
+    font-size: 22px;
+  }
+  .mission {
+    font-size: 18px;
+  }
+  .piano {
+    font-size: 22px;
+    padding-left: 30px;
+  }
 }
