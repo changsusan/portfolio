@@ -95,3 +95,23 @@ h2 {
     padding-left: 30px;
   }
 }
+.wrap {
+  background-color: #f3f6f6;
+  margin: auto;
+  max-width: 800px;
+}
+.me {
+  max-width: 120px;
+  height: auto;
+}
+.image-me {
+  border-radius: 40px;
+}
+.me-in-garden {
+  max-width: 400px;
+  height: auto;
+  padding-left: 150px;
+}
+.image-me-in-garden {
+  border-radius: 10px;
+}
