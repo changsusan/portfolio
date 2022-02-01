@@ -1,7 +1,7 @@
 :root {
   --primary-font-family: "Cormorant Upright", serif;
   --heading-font: "Julius Sans One", sans-serif;
-  --base-color: #f5eef8;
+  --base-color: #faf9f6;
   --secondary-heading: "Raleway", sans-serif;
 }
 .greetings,
@@ -63,7 +63,7 @@ h2 {
   font-weight: bold;
 }
 .btn-branding {
-  background: #d7bde1;
+  background: #d5d8dc;
   margin-top: 20px;
   border-radius: 12px;
   font-size: 18px;
