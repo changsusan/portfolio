@@ -11,7 +11,8 @@
   font-size: 30px;
   opacity: 0.8;
 }
-.heading {
+.heading,
+.project-heading {
   text-align: center;
   font-family: var(--heading-font);
   font-size: 60px;
@@ -48,8 +49,6 @@ h2 {
 .video {
   display: flex;
   justify-content: center;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 .smaller-font {
   font-size: 20px;
@@ -70,15 +69,25 @@ h2 {
   line-height: 27px;
   padding: 12px 20px;
 }
+.weather,
+.newsletter {
+  max-width: 400px;
+}
+.project-greet {
+  font-family: "Sedgwick Ave", cursive;
+  font-size: 25px;
+}
 @media (max-width: 750px) {
   .greetings {
     font-size: 20px;
   }
-  .heading {
-    font-size: 40px;
+  .heading,
+  .project-heading {
+    font-size: 35px;
   }
   .description {
-    font-size: 25px;
+    font-size: 20px;
+    padding: 0 5px;
   }
   .classes {
     font-size: 20px;
@@ -111,8 +120,27 @@ h2 {
 .me-in-garden {
   max-width: 400px;
   height: auto;
-  padding-left: 150px;
 }
 .image-me-in-garden {
   border-radius: 10px;
+}
+@media (max-width: 600px) {
+  .image-me-in-garden {
+    max-width: 150px;
+    padding-bottom: 10px;
+  }
+  .me-in-garden {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1050px) {
+  .weather,
+  .newsletter {
+    max-width: 300px;
+  }
+}
+@media (max-width: 550px) {
+  .project-heading {
+    font-size: 25px;
+  }
 }
