@@ -1,7 +1,10 @@
 :root {
   --primary-font-family: "Cormorant Upright", serif;
   --heading-font: "Julius Sans One", sans-serif;
+  --cursive-font: "Comforter", cursive;
   --base-color: #faf9f6;
+  --second-base-color: #f5eef8;
+  --button-base-color: #d5d8dc;
   --secondary-heading: "Raleway", sans-serif;
 }
 .greetings,
@@ -24,12 +27,38 @@
   text-align: right;
   margin-right: 50px;
   padding-bottom: 30px;
+}
+.social-center {
+  text-align: center;
+  padding: 30px 0;
+}
+.social a,
+.social-center a {
   font-size: 25px;
+  color: black;
 }
-.fa-facebook-square {
-  padding-right: 20px;
+.btn-branding:hover,
+.social a :hover,
+.social-center a :hover {
+  color: brown;
 }
-.button {
+.social-center a {
+  margin: 0 40px;
+  background-color: var(--second-base-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  max-width: 50px;
+}
+.social-center .fa-instagram {
+  margin: 0;
+  padding-right: 0;
+}
+.social .fa-facebook-square,
+.fa-instagram {
+  padding-right: 30px;
+}
+.button,
+.contact {
   text-align: center;
 }
 p {
@@ -38,7 +67,8 @@ p {
   font-size: 25px;
   opacity: 0.8;
 }
-h2 {
+h2,
+h4 {
   text-align: center;
   font-family: var(--secondary-heading);
 }
@@ -62,7 +92,7 @@ h2 {
   font-weight: bold;
 }
 .btn-branding {
-  background: #d5d8dc;
+  background: var(--button-base-color);
   margin-top: 20px;
   border-radius: 12px;
   font-size: 18px;
@@ -74,8 +104,29 @@ h2 {
   max-width: 400px;
 }
 .project-greet {
-  font-family: "Sedgwick Ave", cursive;
-  font-size: 25px;
+  font-family: var(--cursive-font);
+  font-size: 30px;
+}
+.contact-box {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 30px 60px;
+}
+.contact a {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+.me-in-garden {
+  text-align: center;
+}
+.image-me-in-garden {
+  max-width: 100px;
+}
+.keyboard-emoji {
+  text-align: center;
+  font-size: 50px;
 }
 @media (max-width: 750px) {
   .greetings {
@@ -93,6 +144,7 @@ h2 {
     font-size: 20px;
   }
 }
+
 @media (max-width: 770px) {
   .developer {
     font-size: 22px;

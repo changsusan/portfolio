@@ -23,12 +23,77 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=Cormorant:wght@300&family=Dosis&family=Julius+Sans+One&family=Sedgwick+Ave&family=Raleway:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=Cormorant:wght@300&family=Dosis&family=Julius+Sans+One&family=Comforter&family=Raleway:wght@300&display=swap"
       rel="stylesheet"
     />
     <title>My Projects</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/indec.html"
+          ><img
+            src="/images/logo.png"
+            width="40"
+            height="30"
+            class="d-inline-block align-top"
+            alt="logo of Susan Chang"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/project.html"
+                >Web Projects</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="/music.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Classes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="/music.html">Piano Lesson</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/music.html"
+                    >Musikgarten Classes</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Studio Policies</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="hero pb-5">
       <p class="project-greet pt-5">Check out my</p>
       <h1 class="project-heading">Web-Development Projects</h1>
@@ -36,21 +101,35 @@
         <div class="d-flex justify-content-center pt-5">
           <div class="pe-5">
             <h2 class="pt-5">My Weather App</h2>
-            <a href="https://vigilant-goodall-4fee1e.netlify.app/">
-              <img
-                src="/images/weather.png"
-                class="weather img-fluid mx-auto d-block p-3"
-                alt="Weather App"
-            /></a>
+            <img
+              src="/images/weather.png"
+              class="weather img-fluid mx-auto d-block p-3"
+              alt="Weather App"
+            />
+            <div class="button">
+              <a
+                href="https://vigilant-goodall-4fee1e.netlify.app/"
+                class="btn btn-branding"
+              >
+                Learn More</a
+              >
+            </div>
           </div>
           <div class="ps-5 pb-5">
             <h2 class="pt-5">Worm Bin Newsletter Project</h2>
-            <a href="https://thirsty-pike-58f8d4.netlify.app/">
-              <img
-                src="/images/wormbin-newsletter.png"
-                class="newsletter img-fluid"
-                alt="Wormbin Newsletter "
-            /></a>
+            <img
+              src="/images/wormbin-newsletter.png"
+              class="newsletter img-fluid"
+              alt="Wormbin Newsletter "
+            />
+            <div class="button">
+              <a
+                href="https://thirsty-pike-58f8d4.netlify.app/"
+                class="btn btn-branding"
+              >
+                Learn More</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -59,25 +138,70 @@
           <div class="row">
             <div class="col-md-6">
               <h2 class="pt-5">My Weather App</h2>
-              <a href="https://vigilant-goodall-4fee1e.netlify.app/">
-                <img
-                  src="/images/weather.png"
-                  class="weather img-fluid mx-auto d-block p-3"
-                  alt="Weather App"
-              /></a>
+              <img
+                src="/images/weather.png"
+                class="weather img-fluid mx-auto d-block p-3"
+                alt="Weather App"
+              />
+              <div class="button">
+                <a
+                  href="https://vigilant-goodall-4fee1e.netlify.app/"
+                  class="btn btn-branding"
+                >
+                  Learn More
+                </a>
+              </div>
             </div>
             <div class="col-md-6 pb-5">
               <h2 class="pt-5">Worm Bin Newsletter Project</h2>
-              <a href="https://thirsty-pike-58f8d4.netlify.app/">
-                <img
-                  src="/images/wormbin-newsletter.png"
-                  class="newsletter img-fluid mx-auto d-block p-3"
-                  alt="Wormbin Newsletter "
-              /></a>
+              <img
+                src="/images/wormbin-newsletter.png"
+                class="newsletter img-fluid mx-auto d-block p-3"
+                alt="Wormbin Newsletter "
+              />
+              <div class="button">
+                <a
+                  href="https://thirsty-pike-58f8d4.netlify.app/"
+                  class="btn btn-branding"
+                >
+                  Learn More
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box mt-5 d-flex justify-content-between">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="mailto:su133san@gmail.com" class="btn btn-branding"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="contact pt-4">
+          <a href="mailto:su133san@gmail.com">su133san@gmail.com</a>
+        </div>
+        <div class="social-center">
+          <a href="https://www.facebook.com/musikgartensusan" target="_blank"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+
+          <a
+            href="https://www.instagram.com/susan.music_n_movement/"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <a href="https://github.com/changsusan" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
