@@ -190,7 +190,7 @@ footer h2 {
   height: auto;
 }
 .image-me-in-garden {
-  border-radius: 10px;
+  border-radius: 50%;
 }
 @media (max-width: 600px) {
   .image-me-in-garden {
@@ -211,5 +211,8 @@ footer h2 {
   .project-heading,
   .music-heading {
     font-size: 25px;
+  }
+  .about-github {
+    font-size: 15px;
   }
 }
