@@ -37,9 +37,12 @@
   font-size: 25px;
   color: black;
 }
+
 .btn-branding:hover,
 .social a :hover,
-.social-center a :hover {
+.social-center a :hover,
+.social-contact :hover,
+.ex-device:hover {
   color: brown;
 }
 .social-center a {
@@ -71,6 +74,9 @@ h2,
 h4 {
   text-align: center;
   font-family: var(--secondary-heading);
+}
+footer h2 {
+  font-size: 20px;
 }
 .background {
   background-color: #eaeded;
@@ -127,6 +133,14 @@ h4 {
 .keyboard-emoji {
   text-align: center;
   font-size: 50px;
+}
+.xs-device a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+.ex-device:hover {
+  color: brown;
 }
 @media (max-width: 750px) {
   .greetings {
