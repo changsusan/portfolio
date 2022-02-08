@@ -15,7 +15,8 @@
   opacity: 0.8;
 }
 .heading,
-.project-heading {
+.project-heading,
+.music-heading {
   text-align: center;
   font-family: var(--heading-font);
   font-size: 60px;
@@ -147,7 +148,8 @@ footer h2 {
     font-size: 20px;
   }
   .heading,
-  .project-heading {
+  .project-heading,
+  .music-heading {
     font-size: 35px;
   }
   .description {
@@ -206,7 +208,8 @@ footer h2 {
   }
 }
 @media (max-width: 550px) {
-  .project-heading {
+  .project-heading,
+  .music-heading {
     font-size: 25px;
   }
 }
